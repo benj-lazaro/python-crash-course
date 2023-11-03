@@ -1,0 +1,16 @@
+Getting Started
+---------------
+
+Update Python 3 via PPA
+-----------------------
+- Works on Ubuntu distros ONLY
+
+    sudo app-add-repository ppa:deadsnakes/ppa
+    sudo apt update
+    sudo apt install python<version_number>
+
+
+Example
+-------
+    sudo app-add-repository ppa:deadsnakes/ppa
+    sudo apt update && sudo apt install python3.11
