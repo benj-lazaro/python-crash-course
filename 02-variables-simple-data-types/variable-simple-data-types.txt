@@ -3,7 +3,7 @@ Variables & Simple Data Types
 
 Variables
 ---------
-- A placeholder that is connected or references to a certain value
+- A placeholder that is connected to (or references) a certain value
 - A label that a value can be assigned to
 
 Syntax
