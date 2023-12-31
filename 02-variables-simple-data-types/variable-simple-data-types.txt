@@ -1,10 +1,11 @@
 Variables & Simple Data Types
 -----------------------------
 
-Variables
----------
-- A placeholder that is connected to (or references) a certain value
-- A label that a value can be assigned to
+Variable
+--------
+- It is a placeholder connected to (references) a certain value
+- It is a label that a value can be assigned to
+
 
 Syntax
 ------
