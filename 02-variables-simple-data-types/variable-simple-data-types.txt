@@ -3,9 +3,8 @@ Variables & Simple Data Types
 
 Variable
 --------
-- It is a placeholder connected to (references) a certain value
-- It is a label that a value can be assigned to
-
+- A placeholder connected to a certain value
+- A label that a value can be assigned to
 
 Syntax
 ------
@@ -19,22 +18,22 @@ print(first_number) # returns 10
 
 Naming and Using Variables
 --------------------------
-- It can ONLY contain letters, numbers & underscores
-- It can START with a letter or underscore but NOT a number
-- Space between words are NOT allowed
+- ONLY contains letters, numbers and underscore
+- Starts with a letter or underscore BUT NOT a number
+- Spaces between words are NOT ALLOWED
     - An underscore can be used to separate words
 
-- Avoid using Python keywords and function names
-- It should be short but descriptive
+- Avoid using Python keywords and/or function names
+- A variable name should be SHORT but DESCRIPTIVE
 
 
 Avoiding Name Errors
 --------------------
-- A NameError is an error returned by a Traceback that occurs when:
-    - Forgetting to set a variable's value before using it
-    - A typographical error in referencing a variable name
-        - A mismatch between the declared variable name & the name used to reference it
+- NameError is an error returns by a Traceback that occurs when:
+    - Forgetting to set a variable's initial value before using it
 
-- A Traceback is triggered when a program can NOT run successfully
-    - It is a record where the Python interpreter ran into trouble
-        - When trying to execute the Python code
+    - A typographical error in referencing a variable name
+        - Mismatch between declared variable name & the name used for referencing it
+
+    - NOTE: Traceback is triggered when a program can NOT RUN successfully
+        - A record where the Python interpreter ran into trouble when executing the code
