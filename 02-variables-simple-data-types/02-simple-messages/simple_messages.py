@@ -1,7 +1,7 @@
-# Assign a message to a variable then print it
+# Assign an initial string value to a variable
 message_text = "This is the initial text."
 print(message_text)
 
-# Then replace the content of the variable and then print it
+# Assign a new string value to replace previous value
 message_text = "This is the replacement text."
 print(message_text)
