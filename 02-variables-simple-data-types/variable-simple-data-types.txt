@@ -1,39 +1,35 @@
 Variables & Simple Data Types
 -----------------------------
+- A variable is a placeholder connected to a certain value
+    - A label that a value can be assigned to
 
-Variable
---------
-- A placeholder connected to a certain value
-- A label that a value can be assigned to
 
-Syntax
-------
+Syntax:
+
 <variable_name> = <value>
 
-Example
--------
+Example:
+
 first_number = 10
 print(first_number) # returns 10
 
 
-Naming and Using Variables
---------------------------
-- ONLY contains letters, numbers and underscore
-- Starts with a letter or underscore BUT NOT a number
-- Spaces between words are NOT ALLOWED
-    - An underscore can be used to separate words
+- Naming and using variables
+    - It can ONLY contain letters, numbers & underscore
+    - It starts with a letter or underscore character but NOT a number
+    - Whitespace between words are NOT allowed
+        - Use an underscore character to separate words
 
-- Avoid using Python keywords and/or function names
-- A variable name should be SHORT but DESCRIPTIVE
+    - Avoid using Python keywords and/or function names
+    - It should be short BUT descriptive
 
 
-Avoiding Name Errors
---------------------
-- NameError is an error returns by a Traceback that occurs when:
-    - Forgetting to set a variable's initial value before using it
+- To avoid name errors
+    - The "NameError" is an error returned by a Traceback, get triggered when
+        - Forgetting to set an initial variable to a variable BEFORE using it
 
-    - A typographical error in referencing a variable name
-        - Mismatch between declared variable name & the name used for referencing it
+        - A typographical error when referencing a variable name
+            - Mismatch between a declared variable name & the variable name used in referencing it
 
-    - NOTE: Traceback is triggered when a program can NOT RUN successfully
-        - A record where the Python interpreter ran into trouble when executing the code
+    - NOTE: A traceback is triggered when a program can NOT run successfully
+        - A record is where the Python interpreter ran into trouble when executing the code
